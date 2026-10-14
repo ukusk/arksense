@@ -1,9 +1,11 @@
 # ArkSense
 
-## NB! Puuduvad eelnevad commitid, kuna hoiustasin faile viimased 2-3 nädalat lokaalselt, repo on tehtud vaid töö esitamiseks.
+## NB! Puuduvad eelnevad commitid, kuna hoiustasin faile viimased 2-3 nädalat lokaalselt, repo on tehtud vaid töö esitamiseks. Vajadusel võin lisada ka kõikide eelnevate versioonide backlogi, kui see peaks vajalikuks osutuma.
+
+Demolink (suvaline gameplay highlight kus on näha teatud menüü funktsioone) - https://medal.tv/games/ark/clips/nJ3D6mfDVvAaFKsZY?invite=cr-MSxMalksNDc5MTU1NDcw
 
 
-## Nõuded
+## Requirements
 
 - Windows 10 või 11, 64-bitine. Voogedastusrežiim vajab Windows 10 versiooni 2004 või uuemat.
 - [AutoHotkey v2.0](https://www.autohotkey.com/) (paigaldatud).
@@ -29,23 +31,23 @@ Menüü avaneb ja sulgub Insert-klahviga. Seaded salvestatakse faili `ArkSense.i
 
 ## Funktsioonid
 
-### Peamine
+### Main
 
-- **Antidoot** – vajutab antidoodi hotbar-klahvi, kui buffi ikooni ekraanil pole, kontrollib, kas see õnnestus, ja proovib vajadusel uuesti. Loendur „ok / fail“ näitab õnnestunud ja ebaõnnestunud vajutusi.
-- **Makrod** – Remount (lisa E-vajutus), Insta-Bag (klõps salvestatud kohas), mammuti klikker koos rütmimõõtjaga ja autoklikker (1–60 klõpsu sekundis, ajastuse juhuslik varieerumine).
-- **OC makro** – hoiab Shifti all ja vajutab klahve 1, 2, 3 järjest.
-- **Mäng** – konsooli eelseaded (FPS-käsud), ekraani värvifiltrid (ka värvipimeduse abi) ja teavitused (antidoot ebaõnnestus, serveri viivitus, ühenduse kadu).
+- **Antidote** – vajutab antidoodi hotbar-klahvi, kui buffi ikooni ekraanil pole, kontrollib, kas see õnnestus, ja proovib vajadusel uuesti. Loendur „ok / fail“ näitab õnnestunud ja ebaõnnestunud vajutusi.
+- **Macros** – Remount (lisa E-vajutus), Insta-Bag (klõps salvestatud kohas), mammuti klikker koos rütmimõõtjaga ja autoklikker (1–60 klõpsu sekundis, ajastuse juhuslik varieerumine).
+- **OC macro** – hoiab Shifti all ja vajutab klahve 1, 2, 3 järjest.
+- **Game** – konsooli eelseaded (FPS-käsud), ekraani värvifiltrid (ka värvipimeduse abi) ja teavitused (antidoot ebaõnnestus, serveri viivitus, ühenduse kadu).
 
 ### Visuaalid
 
-- **Ülekate** – olekupillid; statistikakaart (CPU, RAM, GPU, kell, pingi graafik, jitter, kadu, FPS, mängijate arv); serveri automaatne tuvastus; 3 salvestatavat paigutust kiirklahvidega; voogedastusrežiim, mis peidab menüü ja ülekatted salvestustest.
-- **Praegu mängib** – väike kaart YouTube'i või muusikarakenduse loo nime, pildi ja edenemisribaga.
-- **Clantag & riba** – animeeritud silt (Build-up või Decode) eraldi kastis või statistikakaardil. Statistikakaardi saab näidata õhukese ribana: logo, ArkSense, ping, FPS ning soovi korral CPU, GPU, RAM ja silt. Valida saab 8 logo vahel.
-- **Välimus** – menüü taustad (Aurora, Embers, Frosted glass, Holo), neoonservad, prožektor, värvikorrektsioon, teemad, efektid ja käivitusanimatsioon.
+- **Overlay** – olekupillid; statistikakaart (CPU, RAM, GPU, kell, pingi graafik, jitter, kadu, FPS, mängijate arv); serveri automaatne tuvastus; 3 salvestatavat paigutust kiirklahvidega; voogedastusrežiim, mis peidab menüü ja ülekatted salvestustest.
+- **Playing now** – väike kaart YouTube'i või muusikarakenduse loo nime, pildi ja edenemisribaga.
+- **Clantag & stats bar** – animeeritud silt (Build-up või Decode) eraldi kastis või statistikakaardil. Statistikakaardi saab näidata õhukese ribana: logo, ArkSense, ping, FPS ning soovi korral CPU, GPU, RAM ja silt. Valida saab 8 logo vahel.
+- **Look** – menüü taustad ja üldine kaunistamine (Aurora, Embers, Frosted glass, Holo), neoonservad, prožektor, värvikorrektsioon, teemad, efektid ja käivitusanimatsioon.
 
 ### Süsteem
 
-- **Seaded** – värvid, menüü tüüp (Web või Native), font, taustapilt, heli, logo, sinu nimi ja profiilid.
-- **Häälestus** – Windowsi mängurežiim, Game Bari salvestus, HAGS, toiteplaan ja ARK-i protsessi prioriteet. Kõik muudatused saab tagasi võtta.
-- **Logid** – ArkSense'i enda tegevuste logi, enesekontroll ja hädaseiskamisklahv, mis peatab kõik makrod ja sulgeb programmi.
-- **Muu** – puhas ekraanipilt ilma ülekateteta ja seadete otsing (Ctrl+F).
+- **Settings** – värvid, menüü tüüp (Web või Native), font, taustapilt, heli, logo, sinu nimi ja profiilid.
+- **Tune-up** – Windowsi mängurežiim, Game Bari salvestus, HAGS, toiteplaan ja ARK-i protsessi prioriteet. Kõik muudatused saab tagasi võtta.
+- **Logs** – ArkSense'i enda tegevuste logi, enesekontroll ja hädaseiskamisklahv, mis peatab kõik makrod ja sulgeb programmi.
+- **Other** – puhas ekraanipilt ilma ülekateteta ja seadete otsing (Ctrl+F).

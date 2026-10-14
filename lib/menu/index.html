@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArkSense</title>
+<!-- ArkSense - lib\menu\index.html: the web menu, shown in an Edge WebView2 window.
+     Everything on it comes from ArkSense (lib\Web.ahk); see menu.js. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src file: data:;">
+<link rel="stylesheet" href="menu.css">
+<script src="menu.js"></script>
+</head>
+<body>
+<div class="app">
+  <div class="topline"></div>
+  <div class="fxlayer"></div>
+  <div class="gradelayer"></div>
+  <aside class="side"></aside>
+  <main class="main">
+    <header class="top">
+      <span class="crumb"></span><span class="title"></span>
+      <label class="search"><input type="text" placeholder="Search settings  (Ctrl+F)" spellcheck="false"></label>
+      <button class="wbtn min" title="Hide the menu">&#x2013;</button>
+      <button class="wbtn x" title="Close ArkSense">&#x2715;</button>
+    </header>
+    <section class="content"></section>
+    <footer class="foot"><div class="rail"></div><div class="footbtns"></div></footer>
+  </main>
+</div>
+</body>
+</html>
